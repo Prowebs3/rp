@@ -15,12 +15,12 @@
         <title>Document</title>
     </head>
 
-    <body>
+    <body >
 
 
         <center>
             <div class="cen">
-                <img src="image/abcd.png" width="400" height="200">
+                <img src="image/rps.jpg" width="400" height="200">
                 <button class="btn fourth" onclick="location.href='login.php'">PLAY GAME </button>
                 <button class="btn fourth" onclick="location.href='help.php'">HELP?</button>
 
