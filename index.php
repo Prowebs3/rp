@@ -20,7 +20,8 @@
 
         <center>
             <div class="cen">
-                <img src="image/rps.jpg" width="400" height="200">
+            <marquee behavior ="scroll" direction="left">
+                <img src="image/rps.jpg" width="400" height="200"></marquee>
                 <button class="btn fourth" onclick="location.href='login.php'">PLAY GAME </button>
                 <button class="btn fourth" onclick="location.href='help.php'">HELP?</button>
 

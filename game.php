@@ -9,12 +9,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Redressed&display=swap" rel="stylesheet">
+    <style>
+    .round
+    {
+    border-radius:50%;
+    float:right;
+    
+    }
+        </style>
 </head>
 
 
 <body>
-<div class="propic p-4 rounded-circle">
-        <img src="profile/<?php echo $_SESSION['user_photo']; ?>" alt=" "  width="100px" height="50px"  >
+<div id="round">
+        <img src="profile/<?php echo $_SESSION['user_photo']; ?>" alt=" "  width="100px" height="50px" class="round"  >
         </div>
     <div class="">
         <button class="btn btn-danger mt-5" onclick="reset()"><a href="game.php" id="gf">CONTINUE</a></button>
